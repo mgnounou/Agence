@@ -180,6 +180,9 @@ strong{
     align-items: center;
     margin-bottom: 1rem;
 }
+.testimonials-elem-text{
+    padding: 0 2rem;
+}
 .testimonials-elem-text p i{
     margin: 0.2rem;
 
