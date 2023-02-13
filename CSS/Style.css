@@ -7,6 +7,8 @@
 /* Général */
 body{
     font-family: 'Montserrat', sans-serif;
+    background: #eee;
+    color: #333;
 }
 
 p{
@@ -171,7 +173,7 @@ strong{
     flex: 1;
     background: white;
     border-radius: 5px;
-    padding: 5px;
+    padding: 2rem;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -181,4 +183,19 @@ strong{
 .testimonials-elem-text p i{
     margin: 0.2rem;
 
+}
+.fa, .fas{
+    font-weight: 0.2rem;
+}
+.testimonials-elem-profil img{
+    width: 50px;
+    border-radius: 50px;
+    margin-bottom: 0.5rem;
+}
+.testimonials-elem-profil p{
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+em{
+    color: #555;
 }
